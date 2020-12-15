@@ -1,0 +1,103 @@
+:root {
+  --clr-purple-main: #6e00ff;
+  --clr-purple-header: #6C00FA;
+  --clr-purple-light: #AA56FF;
+  --clr-orange: #FFAA2B;
+  --clr-light-grey: #ECECEC;
+  --clr-medium-grey: #D3D3D3;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/* LANDING PAGE ==================================== */
+
+.landing-page {
+  display: flex;
+}
+
+.lp-purple {
+  background: var(--clr-purple-main);
+  color: white;
+  flex: 2;
+}
+
+.lp-white {
+  background: white;
+  color: black;
+  flex: 1;
+}
+
+header {
+  background: var(--clr-purple-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.logo {
+  font-family: 'Norican';
+  font-weight: 100;
+  color: var(--clr-orange);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.landing-page h2 {
+  padding-left: 4rem;
+  padding-top: 3rem;
+  font-size: 2.5rem;
+}
+
+.landing-page p {
+  padding-left: 4rem;
+  line-height: 1rem;
+}
+
+.landing-page button i {
+  font-size: 1.2rem;
+  margin-left: .75rem;
+}
+
+.landing-page button {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding: 0.75rem 1.25rem;
+  color: white;
+  background: transparent;
+  border: 1.5px solid white;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.landing-page button:hover {
+  background: var(--clr-orange);
+  border: 1.5px solid var(--clr-orange);
+  color: black;
+}
