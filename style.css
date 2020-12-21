@@ -21,20 +21,10 @@ body {
 
 /* LANDING PAGE ==================================== */
 
-.landing-page {
-  display: flex;
-}
-
-.lp-purple {
-  background: var(--clr-purple-main);
-  color: white;
-  flex: 2;
-}
-
-.lp-white {
-  background: white;
-  color: black;
-  flex: 1;
+.header-container {
+  display: grid;
+  grid-template-columns: 67% auto;
+  background: unset;
 }
 
 header {
@@ -49,6 +39,9 @@ header {
   font-family: 'Norican';
   font-weight: 100;
   color: var(--clr-orange);
+  white-space: nowrap;
+  font-size: 1.75rem;
+  padding-left: 2rem;
 }
 
 nav ul {
@@ -56,33 +49,46 @@ nav ul {
   list-style-type: none;
 }
 
-nav ul li {
+nav li {
+  color: white;
   margin: 0 1rem;
   font-size: 0.9rem;
   letter-spacing: 1px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
-.landing-page h2 {
-  padding-left: 5rem;
-  padding-top: 3rem;
+.landing-page {
+  display: grid;
+  grid-template-columns: 67% auto;
+  background: unset;
+  height: 90vh;
+}
+
+.landing-page-content {
+  background: var(--clr-purple-main);
+  padding: 5rem 15rem 4rem 5rem;
+}
+
+.landing-page-content h2 {
   font-size: 2.5rem;
+  color: white;
+  margin: 0;
+  padding-bottom: 1.5rem;
 }
 
-.landing-page p {
-  padding-left: 5rem;
+.landing-page-content p {
   line-height: 1rem;
+  color: white;
 }
 
-.landing-page button i {
+.landing-page-content button i {
   font-size: 1.2rem;
   margin-left: .75rem;
 }
 
-.landing-page button {
-  margin-left: 5rem;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+.landing-page-content button {
+  margin-top: 3rem;
   padding: 0.75rem 1.25rem;
   color: white;
   background: transparent;
@@ -97,7 +103,7 @@ nav ul li {
   align-items: center;
 }
 
-.landing-page button:hover {
+.landing-page-content button:hover {
   background: var(--clr-orange);
   border: 1.5px solid var(--clr-orange);
   color: black;
@@ -114,4 +120,10 @@ nav ul li {
   margin: 0 2.5rem;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.landing-page-svg {
+  width: 100%;
+  margin-left: -50%;
+  margin-top: 12%;
 }
