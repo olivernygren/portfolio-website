@@ -51,11 +51,12 @@ nav ul {
 
 nav li {
   color: white;
-  margin: 0 1rem;
+  padding: .35rem 1rem;
   font-size: 0.9rem;
   letter-spacing: 1px;
   cursor: pointer;
   white-space: nowrap;
+  transition: 200ms all ease-in-out;
 }
 
 .landing-page {
@@ -125,6 +126,14 @@ nav li {
   width: 100%;
   margin-left: -50%;
   margin-top: 12%;
+}
+
+/* HOVER EFFECTS */
+
+nav li:hover {
+  background: white;
+  color: var(--clr-purple-header);
+  border-radius: 6px;
 }
 
 
@@ -237,7 +246,7 @@ nav li {
 }
 
 .project-2 {
-  margin-top: 1.5rem;
+  margin-top: .5rem;
 }
 
 .project-2 .project-svg {
@@ -280,6 +289,7 @@ nav li {
 .about-me {
   background: var(--clr-light-grey);
   padding: 4rem;
+  margin-top: -7rem;
 }
 
 .about-me h3 {
@@ -405,6 +415,54 @@ textarea {
 
 .submit-btn:hover {
   background: var(--clr-purple-main);
+  color: white;
+}
+
+
+
+/* FOOTER ===================================================*/
+
+.v-shape {
+  width: 100%;
+}
+
+footer {
+  background: var(--clr-purple-main);
+  display: flex;
+  justify-content: center;
+  margin-top: -0.5rem;
+  color: white;
+  padding: 0 5rem 4rem 5rem;
+}
+
+.footer-list-container {
+  flex: 1;
+  text-align: center;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+}
+
+footer ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+footer li {
+  margin-bottom: 0.5rem;
+}
+
+footer i {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+}
+
+.copyright-text {
+  text-align: center;
+  background: var(--clr-purple-main);
+  padding: 1rem 0;
+  font-size: 0.75rem;
   color: white;
 }
 
