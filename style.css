@@ -104,9 +104,8 @@ nav li {
 }
 
 .landing-page-content button:hover {
-  background: var(--clr-orange);
-  border: 1.5px solid var(--clr-orange);
-  color: black;
+  background: white;
+  color: var(--clr-purple-main);
 }
 
 .social-links {
@@ -127,3 +126,100 @@ nav li {
   margin-left: -50%;
   margin-top: 12%;
 }
+
+
+
+/* FEATURED PROJECT ====================================== */
+
+.purple-square-svg {
+  margin-top: 4rem;
+}
+
+.featured-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-project-left {
+  width: 50%;
+}
+
+.featured-project h5 {
+  color: var(--clr-purple-main);
+  letter-spacing: 3px;
+  margin-top: -5rem;
+  padding-left: 9rem;
+}
+
+.featured-project h3 {
+  padding-left: 9rem;
+  padding-top: 0;
+  margin-top: -1rem;
+  font-size: 2rem;
+}
+
+.featured-project p {
+  padding: 1rem 4rem 0 9rem;
+  line-height: 1.75rem;
+}
+
+.featured-project-svg {
+  float: right;
+  width: 60%;
+  margin-right: -10%;
+  margin-top: 1rem;
+}
+
+
+
+/* MY SKILLSET =========================================== */
+
+.my-skillset {
+  background: var(--clr-orange);
+  margin-top: -8.5rem;
+  padding: 4rem;
+}
+
+.my-skillset h3 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 1rem;
+}
+
+.divider-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: white;
+  margin: 1rem;
+  padding: 5rem 2rem 3rem 2rem;
+  border-radius: 12px;
+}
+
+.card h4 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+}
+
+.card p {
+  font-size: .9rem;
+}
+
+
+
+/* MY PROJECTS ================================================== */
