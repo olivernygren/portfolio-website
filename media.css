@@ -14,13 +14,14 @@
       padding: 0 .5rem;
     }
     
-    nav ul {
+    .desktop-nav ul {
       display: none;
     }
     
     .header-container {
       display: unset;
       width: 100%;
+      position: fixed;
     }
     
     .landing-page {
@@ -47,6 +48,7 @@
 
     .landing-page-content h2 {
       margin-bottom: 2rem;
+      font-size: 1.8rem;
     }
 
     .landing-page-content button {
@@ -174,6 +176,7 @@
 
   footer {
     padding: 1rem;
+    flex-direction: column;
   }
 
   .footer-list-container {
@@ -188,7 +191,7 @@
   .copyright-text {
     text-align: center;
     background: var(--clr-purple-main);
-    padding: 1rem 0;
+    padding-top: 3rem;
     font-size: 0.75rem;
     color: white;
   }
