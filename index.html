@@ -10,7 +10,9 @@
   <!-- Norican Font --> <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
   <script src=https://kit.fontawesome.com/369fccfd9c.js crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
   <script defer src="./script.js"></script>
+  <script defer src="./contact-form-handler.js"></script>
   <title>Oliver Nygren | Front End Developer & Web Designer</title>
 </head>
 
@@ -20,7 +22,7 @@
 
     <header>
       <h1 class="logo">Oliver Nygren</h1>
-        <nav>
+        <nav class="desktop-nav">
           <ul>
             <li><a href="#"></a>HOME</li>
             <li><a href="#"></a>MY PROJECTS</li>
@@ -28,6 +30,20 @@
             <li><a href="#"></a>ABOUT ME</li>
           </ul>
         </nav>
+
+        <nav class="mobile-nav">
+          <div class="hamburger-menu">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+          </div>
+          <ul>
+            <li><a class="mobile-nav-link" href="#"></a>HOME</li>
+            <li><a class="mobile-nav-link" href="#"></a>MY PROJECTS</li>
+            <li><a class="mobile-nav-link" href="#"></a>MY SKILLSET</li>
+            <li><a class="mobile-nav-link" href="#"></a>ABOUT ME</li>
+          </ul>
+      </nav> 
     </header>
 
     <div class="social-links">
