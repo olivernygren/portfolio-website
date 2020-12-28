@@ -1,0 +1,393 @@
+@media (max-width: 768px) { /* TABLETS */
+  .desktop-nav {
+    display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+  
+  header {
+    padding: 0 .5rem;
+  }
+
+  .logo {
+    padding-left: 3rem;
+  }
+  
+  .desktop-nav ul {
+    display: none;
+  }
+  
+  .header-container {
+    display: unset;
+    width: 100%;
+    position: fixed;
+  }
+  
+  .landing-page {
+    width: 100%;  
+    text-align: center;
+    height: 75vh;
+    display: unset;
+  }
+  
+  .landing-page-content {
+    flex-direction: column;
+    width: 100%;
+    padding: 10rem 3rem;
+  }
+  
+  .landing-page-svg {
+    display: none;
+  }
+  
+  .hamburger-menu {
+    right: 3rem;
+  }
+
+  .landing-page-content h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .landing-page-content button {
+    padding: 0.75rem 1.25rem;
+    margin: 5rem auto 0 auto;
+  }
+  
+  /* FEATURED PROJECT ========================================= */
+  
+  .featured-project {
+    flex-direction: column;
+  }
+  
+  .featured-project-left {
+    width: 90%;
+  }
+  
+  .featured-project h5 {
+    margin-top: -5rem;
+    padding-left: 4rem;
+  }
+  
+  .featured-project h3 {
+    padding-left: 4rem;
+    padding-top: 0;
+    margin-top: -1rem;
+    font-size: 2rem;
+  }
+  
+  .featured-project p {
+    padding: 1rem 2rem 0 4rem;
+    line-height: 1.75rem;
+  }
+  
+  .featured-project-svg {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -7rem;
+  }
+  
+  /* MY SKILLSET =========================================== */
+  
+  .my-skillset {
+    margin-top: -3rem;
+    padding: 4rem 0;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  
+  .card {
+    padding: 3rem 2rem 2rem 2rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+  
+  /* MY PROJECTS ================================================== */
+  
+  .project-1, .project-2 {
+    display: unset;
+  }
+
+  .project-1-img, .project-2-img {
+    margin: -1rem auto;
+    width: 80%;
+  }
+
+  .project-1 .project-svg, .project-2 .project-svg {
+    float: unset;
+  }
+  
+  .my-projects h3 {
+    text-align: center;
+    padding: 5rem 0 4rem;
+  }
+  
+  .my-projects h4 {
+    padding-left: 4rem;
+  }
+  
+  .my-projects h5 {
+    padding-left: 4rem;
+  }
+  
+  .my-projects p {
+    padding: 1rem 1rem 0 4rem;
+  }
+  
+  /* ABOUT ME ====================================================== */
+  
+  .about-me {
+    padding: 4rem 4rem;
+    margin-top: 0;
+  }
+  
+  .about-me-content {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-me-left {
+    padding: 0 1rem 0 1rem;
+  }
+  
+  .about-me-right img {
+    margin-top: 2rem;
+    width: 10rem;
+  }
+
+  /* FOOTER ===================================================*/
+  
+  .contact form {
+    width: 90%;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  .footer-list-container {
+    margin: 0 1rem;
+  }
+
+  footer i {
+    font-size: 1.5rem;
+    padding: .5rem .5rem;
+  }
+
+  .copyright-text {
+    text-align: center;
+    background: var(--clr-purple-main);
+    padding-top: 3rem;
+    font-size: 0.75rem;
+    color: white;
+  }
+  
+}
+  
+@media screen and (max-width: 440px) { /* MOBILE PHONES */ 
+  .social-links {
+    display: none;
+  }
+  
+  header {
+    padding: 0 .5rem;
+  }
+  
+  .desktop-nav ul {
+    display: none;
+  }
+  
+  .header-container {
+    display: unset;
+    width: 100%;
+    position: fixed;
+  }
+  
+  .landing-page {
+    width: 100%;  
+    text-align: center;
+    height: 100vh;
+    display: unset;
+  }
+  
+  .landing-page-content {
+    flex-direction: column;
+    width: 100%;
+    padding: 10rem 2rem;
+    height: 100vh;
+  }
+  
+  .landing-page-svg {
+    display: none;
+  }
+  
+  .hamburger-menu {
+    right: 2rem;
+  }
+
+  .landing-page-content h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .landing-page-content button {
+    padding: 0.75rem 1.25rem;
+    margin: 5rem auto 0 auto;
+  }
+  
+  /* FEATURED PROJECT ========================================= */
+  
+  .featured-project {
+    flex-direction: column;
+  }
+  
+  .featured-project-left {
+    width: 90%;
+  }
+  
+  .featured-project h5 {
+    margin-top: -5rem;
+    padding-left: 3rem;
+  }
+  
+  .featured-project h3 {
+    padding-left: 3rem;
+    padding-top: 0;
+    margin-top: -1rem;
+    font-size: 2rem;
+  }
+  
+  .featured-project p {
+    padding: 1rem 2rem 0 3rem;
+    line-height: 1.75rem;
+  }
+  
+  .featured-project-svg {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -7rem;
+  }
+  
+  /* MY SKILLSET =========================================== */
+  
+  .my-skillset {
+    padding: 4rem 0;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  
+  .card {
+    padding: 3rem 2rem 2rem 2rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+  
+  /* MY PROJECTS ================================================== */
+  
+  .project-1, .project-2 {
+    display: unset;
+  }
+
+  .project-1-img, .project-2-img {
+    margin: -7rem auto;
+    width: 80%;
+  }
+
+  .project-1 .project-svg, .project-2 .project-svg {
+    float: unset;
+  }
+  
+  .my-projects h3 {
+    text-align: center;
+    padding: 5rem 0 3rem;
+  }
+  
+  .my-projects h4 {
+    padding-left: 3rem;
+  }
+  
+  .my-projects h5 {
+    padding-left: 3rem;
+  }
+  
+  .my-projects p {
+    padding: 1rem 1rem 0 3rem;
+  }
+  
+  /* ABOUT ME ====================================================== */
+  
+  .about-me {
+    padding: 4rem 2rem;
+    margin-top: 0;
+  }
+  
+  .about-me-content {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-me-left {
+    padding: 0 1rem 0 1rem;
+  }
+  
+  .about-me-right img {
+    margin-top: 2rem;
+    width: 10rem;
+  }
+
+  /* FOOTER ===================================================*/
+  
+  .contact form {
+    width: 90%;
+  }
+
+  footer {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .footer-list-container {
+    margin: 0 1rem;
+  }
+
+  footer i {
+    font-size: 1.5rem;
+    padding: .5rem .5rem;
+  }
+
+  .copyright-text {
+    text-align: center;
+    background: var(--clr-purple-main);
+    padding-top: 3rem;
+    font-size: 0.75rem;
+    color: white;
+  }
+}
+
+
+
+@media (min-width: 769px) {
+  .mobile-nav {
+      display: none;
+    }
+  }
