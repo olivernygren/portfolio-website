@@ -122,12 +122,11 @@
 
   .project-1 .project-svg, .project-2 .project-svg {
     float: unset;
-    width: 100%;
   }
   
   .my-projects h3 {
     text-align: center;
-    padding: 5rem 0 3rem 3rem;
+    padding: 5rem 0 3rem;
   }
   
   .my-projects h4 {
@@ -145,11 +144,12 @@
   /* ABOUT ME ====================================================== */
   
   .about-me {
-    padding: 4rem;
+    padding: 4rem 2rem;
     margin-top: 0;
   }
   
   .about-me-content {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -167,6 +167,10 @@
   }
 
   /* FOOTER ===================================================*/
+  
+  .contact form {
+    width: 90%;
+  }
 
   footer {
     padding: 1rem;
@@ -177,8 +181,8 @@
   }
 
   footer i {
-    font-size: 2rem;
-    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    padding: .5rem .5rem;
   }
 
   .copyright-text {
@@ -196,9 +200,6 @@
   
   
   
-  .contact form {
-    width: 90%;
-  }
 }
 
 
