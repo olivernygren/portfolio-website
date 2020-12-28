@@ -1,3 +1,22 @@
+@media (max-width: 970px) {
+  .landing-page {
+    display: unset;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .header-container {
+    display: unset;
+    width: 100%;
+  }
+
+  .first-link {
+    display: block;
+  }
+}
+
 @media (max-width: 1125px) {
   .project-1, .project-2 {
     display: unset;
