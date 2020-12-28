@@ -42,7 +42,7 @@
     }
     
     .hamburger-menu {
-      right: 6rem;
+      right: 2rem;
     }
 
     .landing-page-content h2 {
@@ -114,14 +114,19 @@
   .project-1, .project-2 {
     display: unset;
   }
-  
-  .project-1 .project-svg, .project-2 .project-svg  {
-    float: unset;
+
+  .project-1-img, .project-2-img {
+    margin: -7rem auto;
     width: 80%;
-    margin: -8rem auto;
+  }
+
+  .project-1 .project-svg, .project-2 .project-svg {
+    float: unset;
+    width: 100%;
   }
   
   .my-projects h3 {
+    text-align: center;
     padding: 5rem 0 3rem 3rem;
   }
   
@@ -149,17 +154,44 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   .about-me-left {
-    padding: 0 6rem 0 1rem;
+    padding: 0 1rem 0 1rem;
   }
   
   .about-me-right img {
-    width: 15rem;
-    border-radius: 50%;
-    box-shadow: 12px 12px 0px var(--clr-purple-light);
+    margin-top: 2rem;
+    width: 10rem;
   }
+
+  /* FOOTER ===================================================*/
+
+  footer {
+    padding: 1rem;
+  }
+
+  .footer-list-container {
+    margin: 0 1rem;
+  }
+
+  footer i {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+  }
+
+  .copyright-text {
+    text-align: center;
+    background: var(--clr-purple-main);
+    padding: 1rem 0;
+    font-size: 0.75rem;
+    color: white;
+  }
+
+
+
+
   
   
   
