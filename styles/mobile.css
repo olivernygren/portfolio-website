@@ -15,6 +15,7 @@
     display: unset;
     width: 100%;
     position: fixed;
+    z-index: 21000;
   }
   
   .landing-page {
@@ -96,7 +97,6 @@
   }
   
   .card {
-    padding: 3rem 2rem 2rem 2rem;
     width: 80%;
     margin: 2rem auto;
   }
@@ -108,12 +108,13 @@
   }
 
   .project-1-img, .project-2-img {
-    margin: -7rem auto;
+    margin: 0 auto;
     width: 80%;
   }
 
   .project-1 .project-svg, .project-2 .project-svg {
     float: unset;
+    margin: -12rem auto;
   }
   
   .my-projects h3 {
@@ -189,8 +190,48 @@
 
 
 
-@media (min-width: 769px) {
-  .mobile-nav {
-      display: none;
-    }
+@media screen and (max-width: 350px) {
+  .logo {
+    padding-left: 1rem;
   }
+
+  .landing-page-content {
+    height: fit-content;
+  }
+
+  .featured-project {
+    text-align: center;
+    width: 100%;
+  }
+
+  .featured-project-left {
+    padding-right: 0;
+  }
+
+  .featured-project h3, .featured-project h5 {
+    padding-left: 1rem;
+  }
+
+  .featured-project-svg {
+    margin: -8rem auto;
+    margin-top: -11rem;
+  }
+
+  .my-projects h4, .my-projects h5, .my-projects p {
+    text-align: center;
+    padding-left: 0;
+    padding: .5rem 0;
+  }
+
+  .about-me {
+    padding: 3rem 1rem;
+  }
+
+  .contact {
+    padding: 3rem .25rem;
+  }
+
+  .contact form {
+    width: 95%;
+  }
+}

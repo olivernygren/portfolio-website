@@ -134,7 +134,7 @@ header {
 .landing-page-svg {
   width: 100%;
   margin-left: -50%;
-  margin-top: 12%;
+  margin-top: 16%;
 }
 
 /* HOVER EFFECTS */
@@ -157,6 +157,7 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  z-index: 100000;
 }
 
 .line {
@@ -194,6 +195,7 @@ nav li:hover {
   color: white;
   letter-spacing: 2px;
   font-weight: 500;
+  z-index: 50000;
 }
 
 .change {
@@ -291,18 +293,14 @@ nav li:hover {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   background: white;
   margin: 1rem;
-  padding: 5rem 2rem 3rem 2rem;
   border-radius: 12px;
 }
 
 .card h4 {
-  margin-top: 2.5rem;
-  margin-bottom: 0.5rem;
   line-height: 1rem;
 }
 
@@ -310,6 +308,17 @@ nav li:hover {
   font-size: .9rem;
 }
 
+.card-top {
+  background: var(--clr-light-grey);
+  width: 100%;
+  padding: 2rem 0 .5rem 0;
+  border-radius: 12px 12px 0 0;
+  margin-top: 0;
+}
+
+.card-bottom {
+  padding: .5rem 1rem 1rem 1rem;
+}
 
 
 /* MY PROJECTS ================================================== */
@@ -375,6 +384,7 @@ nav li:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 0;
 }
 
 .about-me-left {
@@ -542,4 +552,8 @@ footer i {
   color: white;
 }
 
+
+
+
+/* ANIMATIONS ===================================================== */
 

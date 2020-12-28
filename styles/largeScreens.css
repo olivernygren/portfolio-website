@@ -1,3 +1,35 @@
+@media (max-width: 1125px) {
+  .project-1, .project-2 {
+    display: unset;
+  }
+
+  .project-1-img, .project-2-img {
+    margin: 4rem auto;
+    width: 80%;
+  }
+
+  .project-1 .project-svg, .project-2 .project-svg {
+    float: unset;
+  }
+  
+  .my-projects h3 {
+    text-align: center;
+    padding: 5rem 0 4rem;
+  }
+  
+  .my-projects h4 {
+    padding-left: 4rem;
+  }
+  
+  .my-projects h5 {
+    padding-left: 4rem;
+  }
+  
+  .my-projects p {
+    padding: 1rem 1rem 0 4rem;
+  }
+}
+
 @media (min-width: 1550px) {
   .logo {
     padding-left: 6rem;
@@ -26,10 +58,16 @@
   .featured-project-svg {
     margin-top: -2rem;
     width: 55%;
+    margin-right: 5%;
   }
 
   .my-skillset {
     margin-top: -6rem;
+  }
+
+  .project-1 .project-svg, .project-2 .project-svg {
+    margin-right: 5%;
+    width: 80%;
   }
 
   .project-2 {
@@ -49,7 +87,7 @@
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1850px) {
   p {
     font-size: 1.1rem;
   }
@@ -66,7 +104,7 @@
   }
 
   .landing-page-content {
-    padding: 8rem 30rem 6rem 12rem;
+    padding: 10rem 30rem 6rem 12rem;
   }
 
   .landing-page-content h2 {
@@ -97,7 +135,7 @@
   }
 
   .project-2 {
-    margin-top: 8rem;
+    margin-top: 3rem;
   }
 
   .project-2-img {

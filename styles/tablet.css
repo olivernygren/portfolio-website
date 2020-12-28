@@ -23,6 +23,7 @@
     display: unset;
     width: 100%;
     position: fixed;
+    z-index: 21000;
   }
   
   .landing-page {
@@ -104,7 +105,7 @@
   }
   
   .card {
-    padding: 3rem 2rem 2rem 2rem;
+    /* padding: 3rem 2rem 2rem 2rem; */
     width: 80%;
     margin: 2rem auto;
   }
@@ -116,12 +117,13 @@
   }
 
   .project-1-img, .project-2-img {
-    margin: -1rem auto;
+    margin: 0 auto;
     width: 80%;
   }
 
   .project-1 .project-svg, .project-2 .project-svg {
     float: unset;
+    margin: -10rem auto;
   }
   
   .my-projects h3 {
@@ -230,3 +232,9 @@
     margin-top: -4rem;
   }
 }
+
+@media (min-width: 769px) {
+  .mobile-nav {
+      display: none;
+    }
+  }
