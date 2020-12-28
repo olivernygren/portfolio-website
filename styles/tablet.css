@@ -1,10 +1,18 @@
-@media screen and (max-width: 440px) { /* MOBILE PHONES */ 
+@media (max-width: 768px) { /* TABLETS UPRIGHT */
+  .desktop-nav {
+    display: none;
+  }
+
   .social-links {
     display: none;
   }
   
   header {
     padding: 0 .5rem;
+  }
+
+  .logo {
+    padding-left: 3rem;
   }
   
   .desktop-nav ul {
@@ -20,15 +28,14 @@
   .landing-page {
     width: 100%;  
     text-align: center;
-    height: 100vh;
+    height: 75vh;
     display: unset;
   }
   
   .landing-page-content {
     flex-direction: column;
     width: 100%;
-    padding: 10rem 2rem;
-    height: 100vh;
+    padding: 10rem 3rem;
   }
   
   .landing-page-svg {
@@ -36,12 +43,12 @@
   }
   
   .hamburger-menu {
-    right: 2rem;
+    right: 3rem;
   }
 
   .landing-page-content h2 {
     margin-bottom: 2rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .landing-page-content button {
@@ -61,18 +68,18 @@
   
   .featured-project h5 {
     margin-top: -5rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
   
   .featured-project h3 {
-    padding-left: 3rem;
+    padding-left: 4rem;
     padding-top: 0;
     margin-top: -1rem;
     font-size: 2rem;
   }
   
   .featured-project p {
-    padding: 1rem 2rem 0 3rem;
+    padding: 1rem 2rem 0 4rem;
     line-height: 1.75rem;
   }
   
@@ -85,6 +92,7 @@
   /* MY SKILLSET =========================================== */
   
   .my-skillset {
+    margin-top: -3rem;
     padding: 4rem 0;
   }
   
@@ -108,7 +116,7 @@
   }
 
   .project-1-img, .project-2-img {
-    margin: -7rem auto;
+    margin: -1rem auto;
     width: 80%;
   }
 
@@ -118,25 +126,25 @@
   
   .my-projects h3 {
     text-align: center;
-    padding: 5rem 0 3rem;
+    padding: 5rem 0 4rem;
   }
   
   .my-projects h4 {
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
   
   .my-projects h5 {
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
   
   .my-projects p {
-    padding: 1rem 1rem 0 3rem;
+    padding: 1rem 1rem 0 4rem;
   }
   
   /* ABOUT ME ====================================================== */
   
   .about-me {
-    padding: 4rem 2rem;
+    padding: 4rem 4rem;
     margin-top: 0;
   }
   
@@ -166,7 +174,6 @@
 
   footer {
     padding: 1rem;
-    flex-direction: column;
   }
 
   .footer-list-container {
@@ -187,10 +194,39 @@
   }
 }
 
-
-
-@media (min-width: 769px) {
-  .mobile-nav {
-      display: none;
-    }
+@media (max-width: 1024px) { /* TABLET LANDSCAPE */
+  .first-link {
+    display: none;
   }
+
+  .landing-page-svg {
+    margin-top: 5rem;
+  }
+
+  .featured-project h3 {
+    font-size: 1.75rem;
+    margin-top: -1rem;
+  }
+
+  .my-projects h3 {
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+  }
+
+  .project-2 {
+    margin-top: 0;
+  }
+
+  .my-projects h4 {
+    font-size: 1.75rem;
+    white-space: nowrap;
+  }
+
+  .my-skillset {
+    margin-top: -4rem;
+  }
+
+  .about-me {
+    margin-top: -4rem;
+  }
+}

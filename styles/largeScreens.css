@@ -1,0 +1,121 @@
+@media (min-width: 1550px) {
+  .logo {
+    padding-left: 6rem;
+  }
+
+  .desktop-nav li {
+    margin: 0 .75rem;
+  }
+
+  .landing-page-content {
+    padding: 8rem 20rem 4rem 9rem;
+  }
+
+  .landing-page-content h2 {
+    font-size: 3rem;
+  }
+
+  .landing-page-svg {
+    margin-top: 8rem;
+  }
+
+  .desktop-nav ul {
+    padding-right: 3rem;
+  }
+
+  .featured-project-svg {
+    margin-top: -2rem;
+    width: 55%;
+  }
+
+  .my-skillset {
+    margin-top: -6rem;
+  }
+
+  .project-2 {
+    margin-top: 4rem;
+  }
+
+  .about-me {
+    margin-top: -5rem;
+  }
+
+  .about-me-content {
+    padding-left: 6rem;
+  }
+
+  .about-me-right {
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  p {
+    font-size: 1.1rem;
+  }
+
+  .logo {
+    padding-left: 9rem;
+    font-size: 2rem;
+  }
+
+  .desktop-nav ul {
+    padding-right: 9rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+
+  .landing-page-content {
+    padding: 8rem 30rem 6rem 12rem;
+  }
+
+  .landing-page-content h2 {
+    font-size: 3.25rem;
+  }
+
+  .landing-page-content button {
+    font-size: 1.1rem;
+    margin-top: 7rem;
+  }
+
+  .featured-project-svg {
+    width: 50%;
+  }
+
+  .my-skillset {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 70%;
+  }
+
+  .card p, .card h4 {
+    font-size: 1.1rem;
+  }
+
+  .project-2 {
+    margin-top: 8rem;
+  }
+
+  .project-2-img {
+    margin-top: 5rem;
+  }
+
+  .about-me {
+    margin-top: -2rem;
+  }
+
+  
+  .about-me-content {
+    padding-left: 9rem;
+  }
+
+  .about-me-right {
+    padding-right: 9rem;
+  }
+
+  
+}

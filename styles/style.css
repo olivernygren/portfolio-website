@@ -110,6 +110,7 @@ header {
   transition: 300ms ease-in-out;
   display: flex;
   align-items: center;
+  outline: none;
 }
 
 .landing-page-content button:hover {
@@ -150,7 +151,7 @@ nav li:hover {
   width: 20px;
   height: 24px;
   position: fixed;
-  top: 20px;
+  top: 26px;
   right: 3rem;
   cursor: pointer;
   display: flex;
@@ -226,6 +227,7 @@ nav li:hover {
 .featured-project {
   display: flex;
   justify-content: space-between;
+  margin-top: 5rem;
 }
 
 .featured-project-left {
@@ -241,6 +243,8 @@ nav li:hover {
 
 .featured-project h3 {
   padding-left: 9rem;
+  font-size: 2rem;
+  margin-top: -1rem;
 }
 
 .featured-project p {
@@ -285,6 +289,7 @@ nav li:hover {
 
 .card {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
