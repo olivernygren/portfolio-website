@@ -123,11 +123,6 @@ header {
   outline: none;
 }
 
-.landing-page-content a:hover {
-  background: white;
-  color: var(--clr-purple-main);
-  box-shadow: 8px 8px 0px var(--clr-medium-grey);
-}
 
 .social-links {
   display: flex;
@@ -153,6 +148,12 @@ header {
 }
 
 /* HOVER EFFECTS */
+
+.landing-page-content a:hover {
+  background: white;
+  color: var(--clr-purple-main);
+  box-shadow: 8px 8px 0px var(--clr-medium-grey);
+}
 
 nav a:hover {
   background: white;
@@ -275,6 +276,7 @@ nav a:hover {
   margin-right: -10%;
   margin-top: 1rem;
   border-radius: 12px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.309);
 }
 
 
@@ -350,10 +352,7 @@ nav a:hover {
   margin-right: -15%;
   margin-top: -10%;
   border-radius: 12px;
-}
-
-.project-2 .project-svg {
-  border: 2px solid black;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.309);
 }
 
 .project-1 {

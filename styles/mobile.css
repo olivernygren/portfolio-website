@@ -45,7 +45,7 @@
     font-size: 1.8rem;
   }
 
-  .landing-page-content button {
+  .landing-page-content a {
     padding: 0.75rem 1.25rem;
     margin: 5rem auto 0 auto;
   }
@@ -54,10 +54,12 @@
   
   .featured-project {
     flex-direction: column;
+
   }
   
   .featured-project-left {
     width: 90%;
+    margin-top: -4rem;
   }
   
   .featured-project h5 {
@@ -79,8 +81,8 @@
   
   .featured-project-svg {
     width: 80%;
-    margin: 0 auto;
-    margin-top: -7rem;
+    margin: 2rem auto;
+    margin-top: 1rem;
   }
   
   /* MY SKILLSET =========================================== */
@@ -114,7 +116,7 @@
 
   .project-1 .project-svg, .project-2 .project-svg {
     float: unset;
-    margin: -12rem auto;
+    margin: 2rem auto;
   }
   
   .my-projects h3 {
@@ -199,28 +201,39 @@
     height: fit-content;
   }
 
-  .featured-project {
+  .featured-project-left {
     text-align: center;
     width: 100%;
-  }
-
-  .featured-project-left {
-    padding-right: 0;
+    margin-top: -5rem;
   }
 
   .featured-project h3, .featured-project h5 {
-    padding-left: 1rem;
+    text-align: center;
+    padding-left: 2rem;
+  }
+
+  .featured-project h3, .featured-project h5, .featured-project p {
+    text-align: center;
+    padding-left: 0;
+    padding: 0 1rem;
+    white-space: unset;
   }
 
   .featured-project-svg {
-    margin: -8rem auto;
-    margin-top: -11rem;
+    margin: 1rem auto;
+    margin-top: 0;
+  }
+
+  .my-skillset h3 {
+    padding: 0;
+    margin: 0;
   }
 
   .my-projects h4, .my-projects h5, .my-projects p {
     text-align: center;
     padding-left: 0;
-    padding: .5rem 0;
+    padding: 0 1rem;
+    white-space: unset;
   }
 
   .about-me {
@@ -233,5 +246,9 @@
 
   .contact form {
     width: 95%;
+  }
+
+  .copyright-text {
+    font-size: .7rem;
   }
 }
