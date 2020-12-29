@@ -18,6 +18,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,7 @@ header {
   white-space: nowrap;
   font-size: 1.75rem;
   padding-left: 2rem;
+  cursor: pointer;
 }
 
 .desktop-nav ul {
@@ -57,14 +59,16 @@ header {
   list-style-type: none;
 }
 
-.desktop-nav li {
+.desktop-nav a {
   color: white;
   padding: .35rem 1rem;
   font-size: 0.9rem;
-  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 2px;
   cursor: pointer;
   white-space: nowrap;
   transition: 200ms all ease-in-out;
+  text-decoration: none;
 }
 
 .landing-page {
@@ -91,31 +95,38 @@ header {
   color: white;
 }
 
-.landing-page-content button i {
+.landing-page-content a i {
   font-size: 1.2rem;
   margin-left: .75rem;
 }
 
-.landing-page-content button {
+.landing-page-content a {
+  display: flex;
+  align-items: center;
+  
+  width: fit-content;
   margin-top: 3rem;
   padding: 0.75rem 1.25rem;
+
   color: white;
   background: transparent;
-  border: 1.5px solid white;
+  border: 2px solid white;
+  box-shadow: 5px 5px 0px var(--clr-medium-grey);
+
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
-  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
   transition: 300ms ease-in-out;
-  display: flex;
-  align-items: center;
   outline: none;
 }
 
-.landing-page-content button:hover {
+.landing-page-content a:hover {
   background: white;
   color: var(--clr-purple-main);
+  box-shadow: 8px 8px 0px var(--clr-medium-grey);
 }
 
 .social-links {
@@ -123,6 +134,10 @@ header {
   justify-content: center;
   align-items: center;
   height: 5.5rem;
+}
+
+.social-links a {
+  color: black;
 }
 
 .social-links i {
@@ -139,10 +154,9 @@ header {
 
 /* HOVER EFFECTS */
 
-nav li:hover {
+nav a:hover {
   background: white;
   color: var(--clr-purple-header);
-  border-radius: 6px;
 }
 
 /* MOBILE-NAV ============================================== */
@@ -208,7 +222,7 @@ nav li:hover {
 
 .mobile-nav li {
   list-style: none;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .mobile-nav-link {
@@ -263,7 +277,7 @@ nav li:hover {
 
 
 
-/* MY SKILLSET =========================================== */
+/* MY SKILL SET =========================================== */
 
 .my-skillset {
   background: var(--clr-orange);
@@ -311,7 +325,7 @@ nav li:hover {
 .card-top {
   background: var(--clr-light-grey);
   width: 100%;
-  padding: 2rem 0 .5rem 0;
+  padding: 3rem 0 1rem 0;
   border-radius: 12px 12px 0 0;
   margin-top: 0;
 }
@@ -378,6 +392,11 @@ nav li:hover {
   font-size: 2rem;
   text-align: center;
   margin: 0;
+}
+
+.about-me h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
 }
 
 .about-me-content {
@@ -523,7 +542,15 @@ footer {
 
 .footer-list-container {
   flex: 1;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.footer-list-1 i {
+  font-size: 1rem;
+  text-align: left;
 }
 
 footer h5 {
@@ -542,6 +569,11 @@ footer li {
 footer i {
   font-size: 2rem;
   padding: 0 1.5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
 .copyright-text {
