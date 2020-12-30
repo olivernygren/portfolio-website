@@ -202,10 +202,13 @@
   }
 }
 
-@media (max-width: 1024px) { /* TABLET LANDSCAPE */
+@media (max-width: 1150px) {
   .first-link {
     display: none;
   }
+}
+
+@media (max-width: 1024px) { /* TABLET LANDSCAPE */
 
   .landing-page-svg {
     margin-top: 5rem;
