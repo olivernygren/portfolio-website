@@ -35,7 +35,6 @@
   }
 }
 
-
 @media (max-width: 1125px) {
 
   .featured-project {
@@ -182,6 +181,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -6rem;
   }
 
   .cards {
@@ -203,7 +203,6 @@
   .about-me {
     margin-top: -2rem;
   }
-
   
   .about-me-content {
     padding-left: 9rem;
@@ -212,6 +211,4 @@
   .about-me-right {
     padding-right: 9rem;
   }
-
-  
 }

@@ -1,4 +1,7 @@
 # My Personal Portfolio Webiste
 
-GitHub Pages Link:
-https://olivernygren.github.io/portfolio-website/
+This webpage is meant to be shown to potential future employers as a refernce to what I can create
+
+## Visit The Page
+
+[Click here](https://olivernygren.github.io/portfolio-website/)

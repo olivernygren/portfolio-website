@@ -28,6 +28,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 /* LANDING PAGE ==================================== */
 
 .header-container {
@@ -123,7 +125,6 @@ header {
   outline: none;
 }
 
-
 .social-links {
   display: flex;
   justify-content: center;
@@ -159,6 +160,8 @@ nav a:hover {
   background: white;
   color: var(--clr-purple-header);
 }
+
+
 
 /* MOBILE-NAV ============================================== */
 
@@ -340,6 +343,7 @@ nav a:hover {
 }
 
 
+
 /* MY PROJECTS ================================================== */
 
 .project-1, .project-2 {
@@ -426,6 +430,7 @@ nav a:hover {
   border-radius: 50%;
   box-shadow: 12px 12px 0px var(--clr-purple-light);
 }
+
 
 
 /* CONTACT ME ================================================= */
@@ -594,9 +599,3 @@ footer a {
   font-size: 0.75rem;
   color: white;
 }
-
-
-
-
-/* ANIMATIONS ===================================================== */
-
