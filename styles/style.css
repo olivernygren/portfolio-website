@@ -231,6 +231,7 @@ nav a:hover {
   font-weight: 600;
   display: block;
   padding: 1rem;
+  color: white;
 }
 
 
@@ -244,7 +245,7 @@ nav a:hover {
 .featured-project {
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   margin-bottom: 4rem;
 }
 
@@ -285,7 +286,7 @@ nav a:hover {
 
 .my-skillset {
   background: var(--clr-orange);
-  margin-top: -8.5rem;
+  margin-top: 0;
   padding: 4rem;
 }
 
@@ -395,7 +396,7 @@ nav a:hover {
 .about-me {
   background: var(--clr-light-grey);
   padding: 4rem;
-  margin-top: -7rem;
+  margin-top: 2rem;
 }
 
 .about-me h3 {

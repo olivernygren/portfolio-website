@@ -3,6 +3,10 @@
     display: unset;
   }
 
+  .landing-page-content {
+    padding-bottom: 10rem;
+  }
+
   .social-links {
     display: none;
   }
@@ -15,15 +19,46 @@
   .first-link {
     display: block;
   }
+
+  .landing-page-svg {
+    display: none;
+  }
 }
 
+@media (min-width: 1125px) {
+  .landing-page-content {
+    padding-top: 12rem;
+  }
+
+  .landing-page-svg {
+    margin-top: 10rem;
+  }
+}
+
+
 @media (max-width: 1125px) {
+
+  .featured-project {
+    display: unset;
+  }
+
+  .featured-project-left {
+    width: 100%;
+  }
+
+  .featured-project-svg {
+    float: unset;
+    margin: 3rem auto 4rem auto;
+    width: 80%;
+    display: block;
+  }
+
   .project-1, .project-2 {
     display: unset;
   }
 
   .project-1-img, .project-2-img {
-    margin: 4rem auto;
+    margin: 8rem auto 3rem auto;
     width: 80%;
   }
 
@@ -33,7 +68,7 @@
   
   .my-projects h3 {
     text-align: center;
-    padding: 5rem 0 4rem;
+    padding: 3rem 0 3rem 0;
   }
   
   .my-projects h4 {
@@ -47,6 +82,10 @@
   .my-projects p {
     padding: 1rem 1rem 0 4rem;
   }
+
+  .my-skillset {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1550px) {
@@ -59,7 +98,7 @@
   }
 
   .landing-page-content {
-    padding: 8rem 20rem 4rem 9rem;
+    padding: 12rem 20rem 4rem 9rem;
   }
 
   .landing-page-content h2 {
@@ -75,13 +114,13 @@
   }
 
   .featured-project-svg {
-    margin-top: -2rem;
+    margin-top: 2rem;
     width: 55%;
     margin-right: 5%;
   }
 
   .my-skillset {
-    margin-top: -6rem;
+    margin-top: 0rem;
   }
 
   .project-1 .project-svg, .project-2 .project-svg {
@@ -94,7 +133,7 @@
   }
 
   .about-me {
-    margin-top: -5rem;
+    margin-top: 3rem;
   }
 
   .about-me-content {

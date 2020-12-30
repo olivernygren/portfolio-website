@@ -61,6 +61,7 @@
   
   .featured-project {
     flex-direction: column;
+    margin-top: 0;
   }
   
   .featured-project-left {
@@ -125,6 +126,10 @@
     float: unset;
     margin: 0 auto;
   }
+
+  .project-2 .project-svg {
+    margin-bottom: 2rem;
+  }
   
   .my-projects h3 {
     text-align: center;
@@ -176,6 +181,7 @@
 
   footer {
     padding: 1rem;
+    flex-direction: column;
   }
 
   .footer-list-container {
@@ -213,6 +219,11 @@
   .my-projects h3 {
     text-align: center;
     padding: 3rem 0 3rem 0;
+  }
+
+  .project-1 .project-svg, .project-2 .project-svg {
+    float: unset;
+    margin: -4rem auto 2rem auto;
   }
 
   .project-2 {
